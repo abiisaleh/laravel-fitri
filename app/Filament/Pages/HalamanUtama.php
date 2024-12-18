@@ -91,8 +91,8 @@ class HalamanUtama extends Page implements HasForms, HasActions
                                             TextInput::make('nama'),
                                             TextInput::make('jabatan'),
                                         ]),
-                                    FileUpload::make('foto')
-                                        ->avatar(),
+                                    // FileUpload::make('foto')
+                                    //     ->avatar(),
                                 ]),
 
                                 Fieldset::make('Social')
