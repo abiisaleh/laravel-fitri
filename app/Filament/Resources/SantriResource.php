@@ -17,9 +17,9 @@ class SantriResource extends Resource
 {
     protected static ?string $model = Santri::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-user-group';
 
-    protected static ?string $pluralLabel = 'Santri';
+    protected static ?string $navigationGroup = 'Data';
 
     public static function form(Form $form): Form
     {
@@ -33,7 +33,11 @@ class SantriResource extends Resource
                     ->maxLength(255),
                 Forms\Components\DatePicker::make('tanggal_lahir')
                     ->required(),
-                Forms\Components\Toggle::make('jenis_kelamin')
+                Forms\Components\Select::make('jenis_kelamin')
+                    ->options([
+                        'laki-laki' => 'laki-laki',
+                        'perempuan' => 'perempuan'
+                    ])
                     ->required(),
                 Forms\Components\TextInput::make('nama_ayah')
                     ->required()
