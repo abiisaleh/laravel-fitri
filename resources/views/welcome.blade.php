@@ -45,12 +45,12 @@
                     <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"
                         data-aos="zoom-out">
 
-                        <h1>Selamat Datang di Pondok <span>{{ config('app.name') }}</span></h1>
+                        <h1>Panti Sosial Asuhan Anak <span>{{ config('app.name') }}</span></h1>
                         <p>
-                            Pendidikan Berbasis Islam yang Berintegritas dan Berprestasi
+                            Masa Depan Cerah untuk Setiap Anak
                         </p>
                         <div class="d-flex">
-                            <a href="#about" class="btn-get-started">Get Started</a>
+                            <a href="#footer" class="btn-get-started">Donasi Sekarang</a>
                         </div>
                     </div>
                 </div>

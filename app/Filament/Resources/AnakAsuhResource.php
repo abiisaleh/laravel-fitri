@@ -2,9 +2,9 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\SantriResource\Pages;
-use App\Filament\Resources\SantriResource\RelationManagers;
-use App\Models\Santri;
+use App\Filament\Resources\AnakAsuhResource\Pages;
+use App\Filament\Resources\AnakAsuhResource\RelationManagers;
+use App\Models\AnakAsuh;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -13,9 +13,9 @@ use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
-class SantriResource extends Resource
+class AnakAsuhResource extends Resource
 {
-    protected static ?string $model = Santri::class;
+    protected static ?string $model = AnakAsuh::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-user-group';
 
@@ -123,9 +123,9 @@ class SantriResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListSantris::route('/'),
-            'create' => Pages\CreateSantri::route('/create'),
-            'edit' => Pages\EditSantri::route('/{record}/edit'),
+            'index' => Pages\ListAnakAsuhs::route('/'),
+            'create' => Pages\CreateAnakAsuh::route('/create'),
+            'edit' => Pages\EditAnakAsuh::route('/{record}/edit'),
         ];
     }
 }

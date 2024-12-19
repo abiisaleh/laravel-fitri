@@ -5,9 +5,8 @@
                 <div class="col-lg-6">
                     <h4>Beri Donasi</h4>
                     <p>
-                        Dukung kami melalui donasi Anda untuk meningkatkan fasilitas pendidikan dan
-                        memberikan beasiswa bagi santri yang kurang mampu. Jazakumullah Khairan atas kontribusi
-                        dan dukungan Anda.
+                        Dengan dukungan Anda, kami percaya setiap anak memiliki kesempatan untuk meraih masa depan yang
+                        cerah dan penuh harapan.
                     </p>
                 </div>
             </div>
@@ -109,8 +108,7 @@
             <div class="col-lg-4 col-md-12">
                 <h4>Follow Us</h4>
                 <p>
-                    Cras fermentum odio eu feugiat lide par naso tierra videa magna
-                    derita valies
+                    Follow social media kami untuk update informasi terbaru.
                 </p>
                 <div class="social-links d-flex">
                     <a href="https://www.twitter.com/{{ $kontak['twitter'] }}"><i class="bi bi-twitter-x"></i></a>
