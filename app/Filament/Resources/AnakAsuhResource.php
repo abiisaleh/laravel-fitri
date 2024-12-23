@@ -39,12 +39,6 @@ class AnakAsuhResource extends Resource
                         'perempuan' => 'perempuan'
                     ])
                     ->required(),
-                Forms\Components\TextInput::make('nama_ayah')
-                    ->required()
-                    ->maxLength(255),
-                Forms\Components\TextInput::make('nama_ibu')
-                    ->required()
-                    ->maxLength(255),
                 Forms\Components\TextInput::make('no_telp_wali')
                     ->tel()
                     ->required()
@@ -76,10 +70,6 @@ class AnakAsuhResource extends Resource
                     ->sortable(),
                 Tables\Columns\IconColumn::make('jenis_kelamin')
                     ->boolean(),
-                Tables\Columns\TextColumn::make('nama_ayah')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('nama_ibu')
-                    ->searchable(),
                 Tables\Columns\TextColumn::make('no_telp_wali')
                     ->searchable(),
                 Tables\Columns\TextColumn::make('status_anak')

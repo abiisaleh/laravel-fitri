@@ -150,9 +150,10 @@
                     @endphp
                     @foreach ($site['layanan'] as $layanan)
                         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                            <div class="service-item position-relative">
-                                <div class="icon">
-                                    <i class="">{{ $i++ }}</i>
+                            <div class="service-item position-relative py-4">
+                                <div class="flex">
+                                    <img src="/storage/{{ $layanan['gambar'] }}" class="img-fluid" alt="gambar kegiatan"
+                                        width="100%">
                                 </div>
                                 <a href="#" class="stretched-link">
                                     <h3>{{ $layanan['judul'] }}</h3>

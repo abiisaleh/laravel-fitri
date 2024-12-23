@@ -73,6 +73,7 @@ class HalamanUtama extends Page implements HasForms, HasActions
                         Repeater::make('layanan')
                             ->hiddenLabel()
                             ->schema([
+                                FileUpload::make('gambar')->image(),
                                 TextInput::make('judul'),
                                 Textarea::make('deskripsi'),
                             ])
