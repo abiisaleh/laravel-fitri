@@ -135,10 +135,10 @@
         <section id="services" class="services section">
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <h2>Layanan</h2>
+                <h2>Kegiatan</h2>
                 <p>
                     <span>Cek </span>
-                    <span class="description-title">Program Unggulan</span> Kami
+                    <span class="description-title">Dokumentasi kegiatan</span> kami
                 </p>
             </div>
             <!-- End Section Title -->
