@@ -43,9 +43,6 @@ class AnakAsuhResource extends Resource
                     ->tel()
                     ->required()
                     ->maxLength(255),
-                Forms\Components\Textarea::make('alamat_orang_tua')
-                    ->required()
-                    ->columnSpanFull(),
                 Forms\Components\TextInput::make('status_anak')
                     ->required()
                     ->maxLength(255),

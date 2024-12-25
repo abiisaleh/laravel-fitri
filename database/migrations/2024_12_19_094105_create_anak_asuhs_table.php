@@ -17,10 +17,7 @@ return new class extends Migration
             $table->string('tempat_lahir');
             $table->date('tanggal_lahir');
             $table->enum('jenis_kelamin', ['laki-laki', 'perempuan']);
-            $table->string('nama_ayah');
-            $table->string('nama_ibu');
             $table->string('no_telp_wali');
-            $table->text('alamat_orang_tua');
             $table->string('status_anak');
             $table->date('tanggal_masuk');
             $table->date('tanggal_keluar')->nullable();
